@@ -12,6 +12,7 @@ const Banner = () => {
           height={0}
           width={0}
           sizes="100vw"
+          priority={true}
         />
         <div className="absolute inset-0 h-full w-full rounded-lg bg-gray-950 opacity-30" />
         <Image
@@ -22,6 +23,7 @@ const Banner = () => {
           width={0}
           sizes="100vw"
           style={{ width: "auto", height: "18rem" }}
+          priority={true}
         />
         <h3 className="absolute left-10 top-1/2 w-full max-w-3xl -translate-y-1/2 text-5xl font-semibold tracking-tight text-white">
           Connect, Share and Trade Your Favourite Reads...
