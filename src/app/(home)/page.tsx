@@ -11,7 +11,7 @@ export default async function Home() {
   return (
     <>
       <Banner />
-      <BookList books={books} />
+      <BookList />
     </>
   );
 }
